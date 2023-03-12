@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.Minestom:Minestom:50e1e72c1b'
+    implementation 'com.github.TogAr2:MinestomPvP:master-SNAPSHOT'
+    implementation 'redis.clients:jedis:3.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
