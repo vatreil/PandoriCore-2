@@ -15,7 +15,3 @@ dependencies {
     implementation 'com.github.TogAr2:MinestomPvP:master-SNAPSHOT'
     implementation 'redis.clients:jedis:3.7.0'
 }
-
-test {
-    useJUnitPlatform()
-}
